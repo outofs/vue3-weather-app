@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "vue-cli-service build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
